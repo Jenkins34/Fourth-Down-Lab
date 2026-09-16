@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.DS_Store
+# Keep small demo data, ignore large downloaded real datasets
+data/cleaned_play_by_play.csv
+data/raw_*.csv.gz
+data/raw_*.csv
+outputs/*.db
